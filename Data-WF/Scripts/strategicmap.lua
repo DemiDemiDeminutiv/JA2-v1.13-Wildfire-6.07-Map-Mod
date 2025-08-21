@@ -427,7 +427,7 @@ function SetFactoryLeftoverProgress(sSectorX, sSectorY, bSectorZ, usFacilityType
 	
 	if ( bSectorZ == 0 ) then
 	
-		if ( sSectorX == 13 and sSectorY == SectorY.MAP_ROW_C and usFacilityType == 23 ) then
+		if ( sSectorX == 13 and sSectorY == SectorY.MAP_ROW_C and usFacilityType == 33 ) then
 	
 			SetModderLUAFact(ModSpecificFacts.FACTORY_PROGRESS_DRASSEN_TSHIRTFACTORY_1 + usProductionNumber, 1 + sProgressLeft)
 			
@@ -438,19 +438,19 @@ function SetFactoryLeftoverProgress(sSectorX, sSectorY, bSectorZ, usFacilityType
 			
 			end
 	
-		elseif ( sSectorX == 10 and sSectorY == SectorY.MAP_ROW_F and usFacilityType == 24 ) then
+		elseif ( sSectorX == 10 and sSectorY == SectorY.MAP_ROW_F and usFacilityType == 34 ) then
 		
 			SetModderLUAFact(ModSpecificFacts.FACTORY_PROGRESS_CAMBRIA_HICKSFARM_1 + usProductionNumber, 1 + sProgressLeft)
 			
-		elseif ( sSectorX == 2 and sSectorY == SectorY.MAP_ROW_H and usFacilityType == 5 ) then
+		elseif ( sSectorX == 2 and sSectorY == SectorY.MAP_ROW_H and usFacilityType == 6 ) then
 		
 			SetModderLUAFact(ModSpecificFacts.FACTORY_PROGRESS_GRUMM_MUNITIONSFACTORY_1 + usProductionNumber, 1 + sProgressLeft)
 			
-		elseif ( sSectorX == 2 and sSectorY == SectorY.MAP_ROW_G and usFacilityType == 25 ) then
+		elseif ( sSectorX == 2 and sSectorY == SectorY.MAP_ROW_G and usFacilityType == 35 ) then
 		
 			SetModderLUAFact(ModSpecificFacts.FACTORY_PROGRESS_GRUMM_BOMBWORKSHOP_1 + usProductionNumber, 1 + sProgressLeft)
 			
-		elseif ( sSectorX == 4 and sSectorY == SectorY.MAP_ROW_K and usFacilityType == 15 ) then
+		elseif ( sSectorX == 4 and sSectorY == SectorY.MAP_ROW_K and usFacilityType == 17 ) then
 		
 			SetModderLUAFact(ModSpecificFacts.FACTORY_PROGRESS_GRUMM_ORTAFACTORY + usProductionNumber, 1 + sProgressLeft)
 		
